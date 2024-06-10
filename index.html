@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vente de films et séries</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-md">
+            <a class="navbar-brand" href="#">Filiale du Cabinet Numérique</a>
+        </div>
+    </nav>
+
+    <div class="acceuil"></div>
+
+    <div class="tout">
+        <div class="pr1">
+            <h1 class="center">Commandez vos Films et Séries en un éclair</h1>
+            <div class="bla">
+                <p>Découvrez vos nouveaux films et séries ici et commandez-les pour une livraison rapide. Nous les
+                    copions
+                    sur le support de votre choix. Vous pouvez également commander n'importe quel film, série ou manga
+                    en
+                    ligne et les recevoir automatiquement.</p>
+            </div>
+        </div>
+
+        <div class="igo">
+            <img src="img/1243843.jpg" alt="">
+            <img src="img/1328314.jpg" alt="">
+            <img src="img/19001672.webp" alt="">
+            <img src="img/4337552.jpg" alt="">
+            <img src="img/bandidos.jpg" alt="">
+            <img src="img/1.jpeg" alt="">
+        </div>
+
+        <div class="igo">
+            <img src="img/nell.jpg" alt="">
+            <img src="img/fatal.jpg" alt="">
+            <img src="img/fiasco.jpg" alt="">
+            <img src="img/fug.jpg" alt="">
+            <img src="img/man.jpg" alt="">
+            <img src="img/miller.jpg" alt="">
+        </div>
+
+        <div class="igo">
+            <img src="img/OIP.jpeg" alt="">
+            <img src="img/obs.jpg" alt="">
+            <img src="img/reacher.jpg" alt="">
+            <img src="img/griselda.jpeg" alt="">
+            <img src="img/sex.jpeg" alt="">
+            <img src="img/bad.jpeg" alt="">
+        </div>
+
+        <br>
+
+        <div class="container">
+            <h1 class="center">Listes des films et séries disponibles actuellement:</h1>
+            <p class="fon">Commandez dès maintenant et recevez physiquement les films et séries suivants, sur le support de votre
+                choix
+                :</p>
+            <form id="filmSeriesForm">
+                <div class="form-group">
+                    <h2>Films</h2>
+                    <label for="operationPortugal"><input type="checkbox" id="operationPortugal" name="films"
+                            value="Opération Portugal">Opération Portugal</label><br>
+                    <label for="howToHaveSex"><input type="checkbox" id="howToHaveSex" name="films"
+                            value="How to have sex">How to have sex</label><br>
+                    <label for="theGirlNextDoor"><input type="checkbox" id="theGirlNextDoor" name="films"
+                            value="The girl next door">The girl next door</label><br>
+                    <label for="millersGirl"><input type="checkbox" id="millersGirl" name="films"
+                            value="Millers girl">Millers girl</label><br>
+                    <label for="bagageClaim"><input type="checkbox" id="bagageClaim" name="films"
+                            value="Bagage claim">Bagage claim</label><br>
+                    <label for="lesBlaguesDeToto"><input type="checkbox" id="lesBlaguesDeToto" name="films"
+                            value="Les blagues de Toto">Les blagues de Toto</label><br>
+                    <label for="leLoupDeWalstreet"><input type="checkbox" id="leLoupDeWalstreet" name="films"
+                            value="Le loup de walstreet">Le loup de walstreet</label><br>
+                    <label for="voleuse"><input type="checkbox" id="voleuse" name="films"
+                            value="Voleuse">Voleuse</label><br>
+                    <label for="lift"><input type="checkbox" id="lift" name="films" value="Lift">Lift</label><br>
+                </div>
+                <div class="form-group">
+                    <h2>Séries</h2>
+                    <label for="fugueuse"><input type="checkbox" id="fugueuse" name="series"
+                            value="Fugueuse">Fugueuse</label><br>
+                    <label for="bloodAndWater"><input type="checkbox" id="bloodAndWater" name="series"
+                            value="Blood and Water (S4)">Blood and Water (S4)</label><br>
+                    <label for="redQueen"><input type="checkbox" id="redQueen" name="series" value="Red Queen">Red
+                        Queen</label><br>
+                    <label for="septièmeCiel"><input type="checkbox" id="septièmeCiel" name="series"
+                            value="Septième ciel">Septième ciel</label><br>
+                    <label for="daveyAndJonesiesLocker"><input type="checkbox" id="daveyAndJonesiesLocker" name="series"
+                            value="Davey and Jonesies Locker">Davey and Jonesies Locker</label><br>
+                    <label for="griselda"><input type="checkbox" id="griselda" name="series"
+                            value="Griselda">Griselda</label><br>
+                    <label for="nudes"><input type="checkbox" id="nudes" name="series" value="Nudes">Nudes</label><br>
+                    <label for="obsession"><input type="checkbox" id="obsession" name="series"
+                            value="Obsession">Obsession</label><br>
+                    <label for="doubt"><input type="checkbox" id="doubt" name="series" value="Doubt">Doubt</label><br>
+                    <label for="percyJackson"><input type="checkbox" id="percyJackson" name="series"
+                            value="Percy Jackson">Percy Jackson</label><br>
+                    <label for="oneTrillion"><input type="checkbox" id="oneTrillion" name="series"
+                            value="One trillion">One
+                        trillion</label><br>
+                    <label for="manBee"><input type="checkbox" id="manBee" name="series" value="Man bee">Man
+                        bee</label><br>
+                    <label for="reacher"><input type="checkbox" id="reacher" name="series"
+                            value="Reacher (2saison)">Reacher
+                        (2saison)</label><br>
+                    <label for="royalPain"><input type="checkbox" id="royalPain" name="series"
+                            value="Royal pain (2Saison)">Royal pain (2Saison)</label><br>
+                    <label for="cleaningLady"><input type="checkbox" id="cleaningLady" name="series"
+                            value="The cleaning lady">The cleaning lady</label><br>
+                    <label for="bandidos"><input type="checkbox" id="bandidos" name="series"
+                            value="Bandidos">Bandidos</label><br>
+                    <label for="palmsRoyal"><input type="checkbox" id="palmsRoyal" name="series"
+                            value="Palms Royal">Palms
+                        Royal</label><br>
+                    <label for="mrAndMmeSmith"><input type="checkbox" id="mrAndMmeSmith" name="series"
+                            value="Mr and Mme Smith">Mr and Mme Smith</label><br>
+                    <label for="youngSheldon"><input type="checkbox" id="youngSheldon" name="series"
+                            value="Young Sheldon (S7)">Young Sheldon (S7)</label><br>
+                    <label for="extraordinary"><input type="checkbox" id="extraordinary" name="series"
+                            value="Extraordinary (S2)">Extraordinary (S2)</label><br>
+                    <label for="babyBandidos"><input type="checkbox" id="babyBandidos" name="series"
+                            value="Baby bandidos">Baby bandidos</label><br>
+                    <label for="superSex"><input type="checkbox" id="superSex" name="series" value="Super Sex">Super
+                        Sex</label><br>
+                    <label for="dirtySexyMoney"><input type="checkbox" id="dirtySexyMoney" name="series"
+                            value="Dirty Sexy Money (2saison)">Dirty Sexy Money (2saison)</label><br>
+                    <label for="fatalSéduction"><input type="checkbox" id="fatalSéduction" name="series"
+                            value="Fatal Séduction">Fatal Séduction</label><br>
+                    <label for="fiasco"><input type="checkbox" id="fiasco" name="series"
+                            value="Fiasco">Fiasco</label><br>
+                    <label for="leProblèmeÀ3Corps"><input type="checkbox" id="leProblèmeÀ3Corps" name="series"
+                            value="Le problème à 3 corps">Le problème à 3 corps</label><br>
+                    <label for="notDeadYet"><input type="checkbox" id="notDeadYet" name="series"
+                            value="Not dead yet">Not
+                        dead yet</label><br>
+                    <label for="controlZ"><input type="checkbox" id="controlZ" name="series"
+                            value="Control z (S3)">Control
+                        z (S3)</label><br>
+                    <label for="renegadeNell"><input type="checkbox" id="renegadeNell" name="series"
+                            value="Renegade Nell">Renegade Nell</label><br>
+                    <label for="basedOnTheTrueStory"><input type="checkbox" id="basedOnTheTrueStory" name="series"
+                            value="Based on the true story">Based on the true story</label><br>
+                    <!-- Ajoutez d'autres séries avec des cases à cocher similaires -->
+                </div>
+                <button type="button" onclick="sendToWhatsApp()">Lancer la commande</button>
+            </form>
+        </div> <br>
+
+        <div class="container">
+            <h4>Vous voulez des films ou séries qui ne sont pas présentent dans la liste,</h4>
+            <p>Commandez dès maintenant et recevez en ligne les films et séries que vous souhaitez!</p>
+            <a href="https//wa.me/+22966702757"><button>Commander en ligne</button></a>
+
+        </div>
+        <hr style="color: red;">
+        <footer>
+            <div class="footer-container">
+                <div class="footer-section">
+                    <h2>Contactez-nous</h2> <br>
+                    <ul>
+                        <li>Adresse: BENIN, Cotonou</li>
+                        <li>Téléphone: (229) 66 70 27 57</li>
+                        <li>Email: cabinetnumerique@mail.com</li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h2>Administrateur</h2>
+                    <div class="footer-social">
+                        <a href="#" target="_blank">Facebook</a>
+                        <a href="#" target="_blank">Instagram</a>
+                    </div>
+                </div>
+            </div>
+
+            <p>&copy; 2024 Cabinet Numérique. Tous droits réservés.</p>
+        </footer>
+    </div>
+
+
+    <script>
+        function sendToWhatsApp() {
+            let message = '🍿 Commande de films et séries 🍿\n\n';
+
+            // Récupérer les films sélectionnés
+            const selectedFilms = document.querySelectorAll('input[name="films"]:checked');
+            if (selectedFilms.length > 0) {
+                message += '🎬 Films :\n';
+                selectedFilms.forEach(film => {
+                    message += '  - ' + film.value + '\n';
+                });
+                message += '\n';
+            }
+
+            // Récupérer les séries sélectionnées
+            const selectedSeries = document.querySelectorAll('input[name="series"]:checked');
+            if (selectedSeries.length > 0) {
+                message += '📺 Séries :\n';
+                selectedSeries.forEach(serie => {
+                    message += '  - ' + serie.value + '\n';
+                });
+                message += '\n';
+            }
+
+            // Informations de commande et de livraison
+            message += '🚚 Pour commander et recevoir ces films et séries en physique, veuillez me contacter via WhatsApp.\n';
+
+            const whatsappUrl = `https://api.whatsapp.com/send?phone=+22966702757&text=${encodeURIComponent(message)}`;
+            window.open(whatsappUrl, '_blank');
+        }
+    </script>
+</body>
+
+</html>

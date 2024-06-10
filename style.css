@@ -1,0 +1,192 @@
+body{
+    box-sizing: border-box;
+}
+
+.tout{
+    background-color: #191a1a;
+    color: whitesmoke;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.acceuil{
+    width: 100%;
+    height: 78vh;
+    background-image: url(img/tablet-7025855_1280.jpg);
+    background-size: cover;
+}
+
+.center{
+    text-align: center;
+    font-family: Monospace;
+}
+
+.pr1 p{
+    justify-content: center;
+    width: 50%;
+    text-align: center;
+
+    padding: 2vh;
+    border-radius: 3vh;
+    font-weight: bold;
+}
+
+.bla{
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+label {
+    font-weight: bold;
+}
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+button {
+    display: inline-block;
+    background-color: #25D366;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.igo{
+    display: flex;
+    overflow: scroll;
+    justify-content: center;
+    margin-top: 2px;
+}
+
+.igo img {
+    width: 200px;
+    margin-left: 1vh;
+    border-radius: 2vh;
+}
+
+footer {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+
+.footer-section h2 {
+    color: #FFD700;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    color: whitesmoke;
+}
+
+.footer-section ul li a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.footer-section li {
+    margin-bottom: 10px;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.footer-social a {
+    display: inline-block;
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+  
+@media all and (max-device-width: 580px)
+{
+    
+    label{
+        font-family: Monospace;
+        line-height: 1.6;
+    }
+    
+    .center{
+        color: red;
+    }
+    
+    h2{
+        color: red;;
+    }
+
+    .acceuil{
+        width: 100%;
+        height: 50vh;
+        background-image: url(img/tablet-7025855_1280.jpg);
+        background-size: cover;
+    }
+    
+    .navbar-brand{
+        font-family: Monospace;
+    }
+    
+    .fon{
+        font-family: Times New Roman;
+        line-height: 1.4;
+        padding: 1vh;
+    }
+    
+    .bla{
+        color: dark;
+    }
+
+    .pr1 p{
+        font-family: Times New Roman;
+        justify-content: unset;
+        width: 100%;
+        text-align: center;
+        color: whitesmoke;
+        background-color: unset;
+        padding: 2vh;
+        border-radius: 0vh;
+        font-weight: unset;
+        line-height: 1.4;
+    }
+
+    .igo{
+        display: flex;
+        overflow: scroll;
+        justify-content: unset;
+    }
+
+}
