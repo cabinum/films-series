@@ -164,7 +164,7 @@
         <div class="container">
             <h4>Vous voulez des films ou séries qui ne sont pas présentent dans la liste,</h4>
             <p>Commandez dès maintenant et recevez en ligne les films et séries que vous souhaitez!</p>
-            <a href="https//wa.me/+22966702757"><button>Commander en ligne</button></a>
+            <button><a href="https//wa.me/+22966702757">Commander en ligne</a></button>
 
         </div>
         <hr style="color: red;">
@@ -218,7 +218,7 @@
             }
 
             // Informations de commande et de livraison
-            message += '🚚 Pour commander et recevoir ces films et séries en physique, veuillez me contacter via WhatsApp.\n';
+            message += '🚚 Listes: films et séries en physique: \n';
 
             const whatsappUrl = `https://api.whatsapp.com/send?phone=+22966702757&text=${encodeURIComponent(message)}`;
             window.open(whatsappUrl, '_blank');
